@@ -7,15 +7,15 @@
     app
     class="nav-bar"
   >
-    <v-list nav dense>
+    <v-list>
       <v-list-item link href="#">
-        <router-link to="/" class="nav-menu">home</router-link>
+        <router-link to="/">home</router-link>
       </v-list-item>
       <v-list-item link href="#">
-        <router-link to="/photo" class="nav-menu">photo</router-link>
+        <router-link to="/photo">photo</router-link>
       </v-list-item>
       <v-list-item link href="#">
-        <router-link to="/charts" class="nav-menu">chart</router-link>
+        <router-link to="/charts">chart</router-link>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
