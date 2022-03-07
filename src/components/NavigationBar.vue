@@ -17,6 +17,9 @@
       <v-list-item link href="#">
         <router-link to="/charts">chart</router-link>
       </v-list-item>
+      <v-list-item link href="#">
+        <router-link to="/canvas-test">canvas test</router-link>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>

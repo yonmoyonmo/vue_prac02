@@ -19,6 +19,11 @@ const routes = [
     name: "charts",
     component: () => import("@/components/Charts.vue"),
   },
+  {
+    path: "/canvas-test",
+    name: "canvas-test",
+    component: () => import("@/components/CanvasTest.vue"),
+  },
 ];
 
 const router = new VueRouter({
